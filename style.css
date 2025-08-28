@@ -1,0 +1,33 @@
+body {margin:0; font-family:Arial, sans-serif; background:yellow; color:purple;}
+
+.sidebar {width:200px; height:100%; position:fixed; top:0; left:0; background:red; padding:20px 0;}
+
+.sidebar h2 {color:#fff; text-align:center;}
+
+.sidebar a {display:block; color:#ddd; padding:10px; text-align:center; text-decoration:none;}
+
+.sidebar a:hover {background:#444; color:#fff;}
+
+.content {margin-left:200px; padding:20px;}
+
+section {background:#fff; margin:20px 0; padding:20px; border-radius:8px; box-shadow:0 2px 5px rgba(0,0,0,.1);}
+
+h2 {text-align:center; color:#0077b6;}
+
+.profile {text-align:center;}
+
+.profile img {width:120px; border-radius:50%; margin:10px 0;}
+
+.grid {display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:10px;}
+
+.card {background:#eaf4ff; padding:10px; border-radius:6px; text-align:center;}
+
+form {max-width:350px; margin:auto; display:flex; flex-direction:column; gap:10px;}
+
+input,textarea {padding:8px; border:1px solid #ccc; border-radius:5px;}
+
+button {padding:10px; background:#0077b6; color:#fff; border:none; border-radius:5px; cursor:pointer;}
+
+button:hover {background:#023e8a;}
+
+footer {text-align:center; padding:10px; background:#222; color:#fff; margin-left:200px;}
